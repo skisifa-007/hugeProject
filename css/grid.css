@@ -12,6 +12,7 @@
 }
 
 .cover header{
+    align-self: center;
     display: flex;
     flex-direction: row;
     width: 90%;
@@ -22,8 +23,6 @@ header .logo{
     flex: 1;
     line-height: inherit;
     padding: 10px;
-    margin-left:50px;
-    margin-right:10px;
 }
 
 header nav{
@@ -31,10 +30,8 @@ header nav{
     flex: 2;
     display: flex;
     flex-direction: row;
-    
     align-items: center;
     justify-content: flex-end;
-    margin-right:20px ;
 }
 nav .list_links {
     display: flex;
@@ -50,6 +47,7 @@ nav .btn-join{
 .cover main{
     display: flex;
     flex-direction: row;
+    height: 90vh;
 
 }
 
@@ -58,4 +56,48 @@ main .hello-text{
 }
 main .hello-img{
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    
+
+    
+}
+
+main .hello-img .display{
+    position: relative;
+    width: 500px;
+    height: 600px;
+
+
+}
+
+main .hello-img .display .bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+main .hello-img .display .charB{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    left: 80px;
+}
+main .hello-img .display .charG{
+    width: 500px;
+    position: absolute;
+    top:10px;
+}
+
+
+main .hello-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 20px;
 }
