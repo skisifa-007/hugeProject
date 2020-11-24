@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="754.486" height="745.116" viewBox="0 0 754.486 745.116">
+  <defs>
+    <filter id="Rectangle_75" x="0" y="20.116" width="725" height="725" filterUnits="userSpaceOnUse">
+      <feOffset dy="19" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_43" data-name="Group 43" transform="translate(-1050.184 -1371.384)">
+    <g transform="matrix(1, 0, 0, 1, 1050.18, 1371.38)" filter="url(#Rectangle_75)">
+      <rect id="Rectangle_75-2" data-name="Rectangle 75" width="572" height="572" rx="120" transform="translate(76.5 77.62)" fill="#ff743c"/>
+    </g>
+    <g id="Group_42" data-name="Group 42">
+      <path id="Shape" d="M70.311,70.311h0A70.311,70.311,0,0,1,0,0H70.311Z" transform="translate(1603.178 1441.695) rotate(180)" fill="#6ed47c"/>
+      <path id="Shape-2" data-name="Shape" d="M35.883,35.883h0A35.882,35.882,0,0,1,0,0H35.883Z" transform="translate(1568.75 1441.695) rotate(180)" fill="#d5e155"/>
+      <path id="Shape-3" data-name="Shape" d="M0,43.389A43.39,43.39,0,0,0,43.389,86.779h0A43.39,43.39,0,0,0,86.779,43.389h0A43.39,43.39,0,0,0,43.389,0H0Z" transform="translate(1671 2000.343)" fill="#6ed47c"/>
+      <path id="Shape-4" data-name="Shape" d="M0,22.443A22.443,22.443,0,0,0,22.443,44.886h0A22.443,22.443,0,0,0,44.886,22.443h0A22.443,22.443,0,0,0,22.443,0H0Z" transform="translate(1671 2000.343)" fill="#2d3652"/>
+      <path id="Shape-5" data-name="Shape" d="M55.426,118.744V59.372C55.426,26.582,30.611,0,0,0H0V59.372c0,32.79,24.815,59.372,55.426,59.372Z" transform="translate(1669.287 1469.321) rotate(-90)" fill="#2d3652"/>
+      <path id="Shape-6" data-name="Shape" d="M27.713,59.065V29.682C27.713,13.289,15.305,0,0,0H0V29.383C0,45.777,12.408,59.065,27.713,59.065Z" transform="translate(1669.287 1469.321) rotate(-90)" fill="#6ed47c"/>
+      <path id="Shape-7" data-name="Shape" d="M0,29.005A29.005,29.005,0,0,1,29.005,0h0A29.005,29.005,0,0,1,58.01,29.005h0A29.005,29.005,0,0,1,29.005,58.01h0A29.005,29.005,0,0,1,0,29.005Z" transform="translate(1765.779 1619.734) rotate(90)" fill="#ff743c"/>
+      <path id="Shape-8" data-name="Shape" d="M0,29.005A29.005,29.005,0,0,1,29.005,0h0A29.005,29.005,0,0,1,58.01,29.005h0A29.005,29.005,0,0,1,29.005,58.01h0A29.005,29.005,0,0,1,0,29.005Z" transform="translate(1765.321 1522.684) rotate(90)" fill="#ffc700"/>
+      <path id="Shape-9" data-name="Shape" d="M0,16.1A16.1,16.1,0,0,1,16.1,0h0a16.1,16.1,0,0,1,16.1,16.1h0a16.1,16.1,0,0,1-16.1,16.1h0A16.1,16.1,0,0,1,0,16.1Z" transform="translate(1753.176 1632.736) rotate(90)" fill="#2d3652"/>
+      <path id="Shape-10" data-name="Shape" d="M0,16.1A16.1,16.1,0,0,1,16.1,0h0a16.1,16.1,0,0,1,16.1,16.1h0a16.1,16.1,0,0,1-16.1,16.1h0A16.1,16.1,0,0,1,0,16.1Z" transform="translate(1752.719 1535.686) rotate(90)" fill="#2d3652"/>
+      <path id="Shape-11" data-name="Shape" d="M121.758,0H60.879A60.879,60.879,0,0,0,0,60.879H60.879A60.879,60.879,0,0,0,121.758,0Z" transform="translate(1767.765 1774.69) rotate(90)" fill="#2d3652"/>
+      <path id="Shape-12" data-name="Shape" d="M0,18.264A18.264,18.264,0,0,1,18.264,0h0A18.264,18.264,0,0,1,36.527,18.264h0A18.264,18.264,0,0,1,18.264,36.527h0A18.264,18.264,0,0,1,0,18.264Z" transform="translate(1804.67 1789.951) rotate(90)" fill="#6ed47c"/>
+      <path id="Shape-13" data-name="Shape" d="M0,18.264A18.264,18.264,0,0,1,18.264,0h0A18.264,18.264,0,0,1,36.527,18.264h0A18.264,18.264,0,0,1,18.264,36.527h0A18.264,18.264,0,0,1,0,18.264Z" transform="translate(1804.67 1848.731) rotate(90)" fill="#d5e155"/>
+      <path id="Shape-14" data-name="Shape" d="M387.448,0H193.724C86.734,0,0,86.733,0,193.724H193.724c106.99,0,193.724-86.733,193.724-193.724Z" transform="translate(1244 1702.724)" fill="rgba(255,199,177,0.74)"/>
+      <path id="Shape-15" data-name="Shape" d="M387.448,193.724H193.724C86.734,193.724,0,106.991,0,0H193.724c106.99,0,193.724,86.733,193.724,193.724Z" transform="translate(1244 1509)" fill="rgba(255,199,177,0.61)"/>
+    </g>
+  </g>
+</svg>
