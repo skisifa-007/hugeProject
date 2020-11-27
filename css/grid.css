@@ -104,10 +104,11 @@ main .hello-img .display .bg{
 }
 
 main .hello-img .display .charB{
-    max-width: 100%;
+    max-width: 400px;
     height: auto;
     position: absolute;
     left: 80px;
+    top: -48px;
 }
 main .hello-img .display .charG{
     max-width: 100%;
