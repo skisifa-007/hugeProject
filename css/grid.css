@@ -2,23 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
-
+body{
+    overflow-x: hidden; 
+}
 .cover{
     height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
+    background: rgb(137 199 170 / 20%);
+    position: relative;
 }
 
 .cover header{
-    align-self: center;
+    width: 100%;
+    justify-content: center;
     display: flex;
-    flex-direction: row;
-    width: 90%;
+    background: white;
+
+}
+header .inside-header{
+    display: flex;
+    width: 80%;
     
 }
-
 header .logo{
     flex: 1;
     line-height: inherit;
@@ -33,17 +42,20 @@ header nav{
     align-items: center;
     justify-content: flex-end;
 }
+
 nav .list_links {
     display: flex;
-    justify-content: space-around;
     width: 50%;
-    
 }
-nav .btn-join{
+
+nav li{
     margin-left: 50px;
 }
 
 
+
+
+/* start main */
 .cover main{
     display: flex;
     flex-direction: row;
@@ -52,18 +64,27 @@ nav .btn-join{
 }
 
 main .hello-text{
-    flex: 1;
+    width: 80%;
+    margin: 0 auto;
 }
+
+main h1{
+    margin-bottom: 50px;
+}
+
+
+
 main .hello-img{
+    padding-top: 50px;
+    position: absolute;
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 80%;
-    
-
-    
+    z-index: 2;
+    right: 40px;
 }
 
 main .hello-img .display{
@@ -83,13 +104,13 @@ main .hello-img .display .bg{
 }
 
 main .hello-img .display .charB{
-    width: 400px;
+    max-width: 100%;
     height: auto;
     position: absolute;
     left: 80px;
 }
 main .hello-img .display .charG{
-    width: 500px;
+    max-width: 100%;
     position: absolute;
     top:10px;
 }
@@ -100,4 +121,180 @@ main .hello-text{
     flex-direction: column;
     padding-top: 100px;
     padding-left: 20px;
+}
+
+/* end main cover */
+
+
+/* start about section */
+section{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    height: 100vh;
+}
+section h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+section .about-main{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 90%;
+    align-self: center;
+    padding: 60px auto;
+    height: 80%;
+    align-content: center;
+}
+section .about-main .text{
+    width: 70%;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section .about-main .text h2{
+    font-family: title;
+    font-size: 44px;
+    padding-bottom: 40px;
+}
+section .about-main .text p{
+    font-family: p;
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+}
+section .about-img{
+    height: 90%;
+}
+section .about-main img{
+    width: 100%;
+    padding-right: 30px;
+}
+/* end about sectoin */
+
+
+
+/* start about site section */
+.main-about{
+    display: flex;
+    flex-direction: column;
+   
+    width: 100%;
+}
+.main-about h1{
+    font-family: title;
+    font-size: 50px;
+    text-align: center;
+}
+.main-about .about-p{
+    text-align: center;
+    font-family: p;
+    font-size: 1.4em;
+    background: url(../img/svg/walmark.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 50px;
+}
+
+
+.main-about  .cards-main{
+   width: 90%;
+   align-self: center;
+    background: rgb(137 199 170 / 20%);
+    border-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.main-about  .cards-main h2{
+    text-align: center;
+    font-family: title;
+    font-size: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.main-about  .cards-main .cards{
+    display: flex;
+    align-self: center;
+    
+    margin: auto 9%;
+}
+
+.main-about  .cards-main .cards img{
+    width: 100%;
+    padding: 10%;  
+}
+.main-about  .cards-main  a{
+    color: white;
+    font-family: title;
+    background: #FF743C;
+    padding: .9em 1.3em;
+    border-radius: 25px;
+    font-size: 1.5em;
+    align-self: center;
+    margin-bottom: 3%;
+    box-shadow:  0px 16px 30px 0px rgba(0, 0, 0, 0.07);
+}
+
+
+
+
+
+/* start footer */
+footer{
+    padding: 40px 0;
+    background: rgb(137 199 170 / 20%);
+    margin-top: 100px;
+    display: grid;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+
+}
+footer .socialm{
+    display: grid;
+    justify-content: center;
+}
+footer .socialm .icons{
+    display: flex;
+}
+footer .socialm .icons a{
+    padding: 20px;
+    display: flex;
+    align-content: center;
+}
+footer .socialm img{
+    width: 100%;
+}
+footer  h2{
+    font-family: title;
+    text-align: center;
+}
+
+footer .contact{
+    display: grid;
+    justify-content: center;
+}
+footer .contact div{
+    display: flex;
+    justify-self: center;
+    color: gray;
+}
+footer .contact div span{
+    font-family: p;
+    background: #faa17e4d;
+    color: #FF743C;
+    padding: 5px 10px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+footer .copyright{
+    justify-self: center;
+    color: gray;
+    font-size: 20px;
+    margin-top: 40px;
 }

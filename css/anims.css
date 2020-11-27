@@ -1,0 +1,23 @@
+
+
+
+/*-------------------------- */
+nav .btn-join:hover{
+    transform: scale(1.1);
+}
+nav .btn-join:active{
+    transform: scale(.9);
+}
+
+/*-------------------------- */
+main .btn:hover{
+    background: #ff8e61;
+    transform: scale(1.1);
+    box-shadow:  0px 16px 30px 0px rgba(0, 0, 0, 0.07);
+}
+main .btn:active{
+    transform: scale(.9);
+    
+}
+/*-------------------------- */
+

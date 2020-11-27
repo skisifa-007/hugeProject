@@ -1,0 +1,108 @@
+
+
+
+@media screen and (max-width: 600px) {
+   nav{
+       display: none;
+   }
+    .cover main{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+   }
+   main .hello-text{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+main h1{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+main p{
+    font-size: 12px;
+}
+
+main .hello-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 0;
+}
+main .btn{
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 13px;
+    align-self: center;
+}
+main .hello-img{
+    margin-top: 100px;
+    padding-top: 0;
+    position: relative;
+    flex: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 40%;
+    right: 0;
+}
+main .hello-img .display{
+    position: relative;
+    width: 240px;
+}
+main .hello-img .display .charG{
+    
+    top:-10px;
+   
+}
+/* end main cover */
+
+
+/* start about section */
+section h1{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+section .about-main{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 60px auto;
+    height: max-content;
+    padding: ;
+}
+
+section .about-main .text{
+    width: 100%;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section .about-main .text h2{
+    font-family: title;
+    font-size: 24px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin-top: 1em;
+}
+
+section .about-main .text p{
+    font-family: p;
+    text-align: center;
+    font-size: 15px;
+    padding: 0 2em;
+    color: rgb(54, 54, 54);
+}
+section .about-main img{
+    width: 100%;
+    padding-right: 0;
+    padding: 1em;
+}
+
+
+
+  }

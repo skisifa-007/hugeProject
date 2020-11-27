@@ -1,0 +1,86 @@
+
+/* 
+      main colors
+      oronge   #FF743C
+      hover oronge   #FC9973
+      yello    #FFC700
+ */
+
+@font-face{
+    font-family: "p";
+    src: url(../font/Quicksand_Book.otf);
+}
+@font-face{
+    font-family: title;
+    src: url(../font/Quicksand_Bold.otf);
+}
+@font-face{
+    font-family: big-title;
+    src: url(../font/Montserrat-Bold.ttf);
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    box-shadow:  0px 16px 30px 0px rgba(0, 0, 0, 0.07);
+}
+nav li{
+    list-style: none;
+}
+nav li a:hover{
+    color:#FF743C ;
+}
+nav a{
+    color: black;
+    font-family:p;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav .btn-join{
+    background:#FFC700 ;
+    padding: 6px 13px;
+    border-radius: 14px;
+    transition: .3s ease;
+}
+
+/* end header  */
+
+
+
+/* start main */
+
+
+main h1{
+    font-family: big-title;
+    font-size: 50px;
+}
+main p{
+    font-family: p;
+    font-size: 25px;
+    color: rgb(110, 110, 110);
+}
+main .btn{
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+    background: #FF743C ;
+    width: max-content;
+    font-family: p;
+    padding: 15px 25px;
+    border-radius: 18px;
+    box-shadow:  0px 16px 30px 0px rgba(0, 0, 0, 0.07);
+    transition: .3s ease;
+}
+/* end main */
+
+/* start about section */
+
+section h1{
+    font-family: title;
+    font-size: 50px;
+}
+section .about-main{
+      background: rgb(137 199 170 / 20%);
+      border-radius: 70px;
+}
