@@ -290,11 +290,23 @@ footer .contact div span{
     padding: 5px 10px;
     height: 30px;
     border-radius: 20px;
-    margin-left: 30px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+footer .contact div span.copied{
+    color: #3fa526;
+    background-color: #3cff3c8e;
 }
 footer .copyright{
     justify-self: center;
     color: gray;
-    font-size: 20px;
-    margin-top: 40px;
+    font-family: monospace;
+    font-size: 12px;
+    margin-bottom: -20px;
+}
+
+footer .copyright span{
+    font-weight: bolder;
+    color: #ff733cec;
 }
